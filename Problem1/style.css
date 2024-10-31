@@ -1,0 +1,75 @@
+nav > ul {
+    padding: 10px;
+    list-style: none;
+    background-color: #0b9dba;
+}
+nav > ul > li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav > ul > li > a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+nav > ul > li > a:hover {
+    text-decoration: underline, bold;
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #d36464;
+}
+
+
+.movie-gallery {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center; /* Center the gallery items */
+}
+
+.movies {
+    border: 2px solid #000;
+    width:70%;
+}
+
+.movie-gallery li {
+    display: inline-block;
+    width: 25%; /* Adjust width to fit 3 items per row */
+    margin: 1.66%; /* Adjust margin to create space between items */
+    box-sizing: border-box;
+}
+
+.movie-gallery img {
+    width: 150px;
+    height: 250px;
+    display: block;
+    transition-duration:  0.5s;
+}
+
+.movie-gallery img:hover {
+    transform: scale(1.1);
+}
+
+.movie-gallery button {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #cfc8c8;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.movie-gallery button:hover {
+    background-color: #1ca928;
+    color: white;
+    font-weight:bold;
+    height: auto;
+
+}
